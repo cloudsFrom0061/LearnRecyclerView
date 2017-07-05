@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/add_first" android:title="添加到第一条"
+    android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/add_last" android:title="添加item到尾部"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/remove_first" android:title="移除头部item"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/remove_last" android:title="移除尾部item"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/horizontal" android:title="HORIZONTAL"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/vertical" android:title="VERTICAL"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/grid_hor" android:title="格子状_水平"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/grid_vr" android:title="格子状_垂直"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
